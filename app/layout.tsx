@@ -1,10 +1,6 @@
-import '@styles/global.css'
+import "@styles/global.css";
 
-interface LayoutProps {
-  readonly children?: React.ReactNode;
-}
-
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children }: Components.BaseProps) {
   return (
     <html lang="en">
       <head />
