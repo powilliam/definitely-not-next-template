@@ -1,4 +1,4 @@
-import "../styles/global.css";
+import '@styles/global.css'
 
 interface LayoutProps {
   readonly children?: React.ReactNode;
